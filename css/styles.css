@@ -324,4 +324,28 @@ h3 {
     width: 349px;
     height: 306px;
 }
+@media screen and (min-width: 1110px) {
+    .management .container {
+        display: flex;
+        flex-direction: row;
+        gap: 84px;
+    }
+    .management-content {
+        width: 486px;        
+    }
+    .management-content-p {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .management-content-list {
+        gap: 24px;
+    }
+    .management .icon-pict {
+        width: 540px;
+        height: 500px;
+    }
+    .management-content-list {
+        gap: 24px;
+    }
+}
 /* #endregion Management */
