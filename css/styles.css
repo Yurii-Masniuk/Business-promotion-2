@@ -182,8 +182,8 @@ h3 {
     }
 }
 /* #endregion Product was Built Specifically for You */
-
 /* #region Work at the speed of thought */
+
 .thought {
     padding-top: 28px;
 }
@@ -275,3 +275,53 @@ h3 {
     }
 }
 /* #endregion Work at the speed of thought */
+/* #region Management */
+.management {
+    padding-top: 100px;
+}
+.management .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+}
+.management-content {
+    width: 334px;
+}
+.management-content h3 {
+    font-size: 16px;
+}
+.management-content h2 {
+    margin-top: 8px;
+}
+.management-content-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.management-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.management-content-list-item p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+}
+.management-content-list-item h3 {
+    font-size: 16px;
+    line-height: 1.62;
+    margin-bottom: 12px;
+}
+.management .icon-pict {
+    width: 349px;
+    height: 306px;
+}
+/* #endregion Management */
