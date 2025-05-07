@@ -669,6 +669,7 @@ h3 {
 /* #endregion Quick & Easy Process */
 
 /* #region Contents Strategies */
+
 .strateg {
     padding-top: 100px;
 }
@@ -727,11 +728,164 @@ h3 {
     max-width: 100%;
 }
 @media screen and (min-width: 1110px) {
-    .strateg-list {
-        display: flex;
+    .strateg-list {        
         flex-wrap: nowrap;
         justify-content: center;
         gap: 30px;
     }
 }
 /* #endregion Contents Strategies */
+
+/* #region Price Table */
+.price {
+    padding-top: 100px;
+}
+.price-title {
+    text-align: center;
+}
+.price-title-p {
+    font-family: var(--font-family);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 74px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+}
+.price-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.price-list-item {
+    padding: 32px;
+    border-radius: 8px;
+    width: 322px;
+    box-shadow:
+        0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    flex-shrink: 0;
+}
+.price-list-item h3 {
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: var(--color-fonts);
+}
+.price-list-item p {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.50;
+    color: var(--color-fonts);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.price-list-item-cost {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.price-list-item-cost h4 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    text-align: center;
+    color: var(--background-button-dark);
+}
+.price-list-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+.price-list-item-text h5 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: var(--background-button-dark);
+}
+.price-list-item-text span {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+.price-list-item-features {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.price-list-item-features li {
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.37;
+    letter-spacing: 0.01em;
+    color: var(--color-fonts);
+}
+.price-button {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-button-dark);
+    background-color: var(--background-button-dark);
+    display: block;
+    min-width: 139px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.dark {
+    background-color: var(--background-button-dark);
+}
+.dark h3,
+.dark h4,
+.dark h5,
+.dark p,
+.dark li {
+    color: var(--color-button-dark);
+}
+.dark button {
+    color: var(--background-button-dark);
+    background-color: var(--color-button-dark);
+}
+.price-button:hover,
+.price-button:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
+@media screen and (min-width: 1110px) {
+    .price-list {        
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 72px;
+    }
+    .price-title-p {        
+        margin-top: 10px;
+        margin-bottom: 40px;        
+    }
+}
+/* #endregion Price Table */
+
+/* #region What Clients Say */
+
+
+
+/* #endregion What Clients Say */
