@@ -462,7 +462,6 @@ h3 {
 /* #endregion Customer Support */
 
 /* #region Collaborative */
-
 .collaborative {
     padding-top: 100px;
 }
@@ -550,7 +549,128 @@ h3 {
         gap: 24px;
     }
 }
-
-
-
 /* #endregion Collaborative */
+
+/* #region Quick & Easy Process */
+.process {
+    padding-top: 100px;
+}
+.process .container {
+    width: 350px;
+}
+.process-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.process-title-p {
+    text-align: center;    
+    margin: 0 auto 40px auto;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+}
+.process-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.process-list-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+.process-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 64px;
+    padding: 0 8px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #2f281e;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+}
+.process-list-item:nth-child(1) {
+    order: 1;
+}
+.process-list-item:nth-child(2) {
+    order: 4;
+}
+.process-list-item:nth-child(3) {
+    order: 2;
+}
+.process-list-item:nth-child(4) {
+    order: 3;
+}
+.process-button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-button-dark);
+    background: var(--background-button-dark);
+    display: block;
+    min-width: 216px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    margin: 32px auto 0 auto;
+    cursor: pointer;
+}
+.process-button:hover,
+.process-button:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
+@media screen and (min-width: 1110px) {
+    .process .container {        
+        width: 956px;
+    }
+    .process-title {        
+        margin-bottom: 24px;
+    }
+    .process-title-p {        
+        max-width: 542px;
+    }
+    .process-list {        
+        gap: 24px 100px;
+    }
+    .process-list-item {   
+        justify-content: space-between;
+        gap: 20px;
+        width: auto;
+    }
+    .process-text {             
+        width: auto;
+        height: 50px;
+        padding: 0 25px;
+        border-radius: 25px;
+    }    
+    .process-list-item:nth-child(2) {
+        order: 2;
+    }
+    .process-list-item:nth-child(3) {
+        order: 3;
+    }
+    .process-list-item:nth-child(4) {
+        order: 4;
+    }
+}
+/* #endregion Quick & Easy Process */
+
+/* #region Contents Strategies */
+
+
+
+
+/* #endregion Contents Strategies */
