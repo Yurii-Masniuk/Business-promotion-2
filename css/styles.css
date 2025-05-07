@@ -461,3 +461,96 @@ h3 {
 }
 /* #endregion Customer Support */
 
+/* #region Collaborative */
+
+.collaborative {
+    padding-top: 100px;
+}
+
+.collaborative .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+}
+
+.collaborative-content {
+    width: 334px;
+}
+
+.collaborative-content h3 {
+    font-size: 16px;
+}
+
+.collaborative-content h2 {
+    margin-top: 8px;
+}
+
+.collaborative-content-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.collaborative-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.collaborative-content-list-item p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+}
+
+.collaborative-content-list-item h3 {
+    font-size: 16px;
+    line-height: 1.62;
+    margin-bottom: 12px;
+}
+
+.collaborative .icon-pict {
+    width: 349px;
+    height: 306px;
+}
+
+@media screen and (min-width: 1110px) {
+    .collaborative .container {
+        display: flex;
+        flex-direction: row;
+        gap: 84px;
+    }
+
+    .collaborative-content {
+        width: 486px;
+    }
+
+    .collaborative-content-p {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .collaborative-content-list {
+        gap: 24px;
+    }
+
+    .collaborative .icon-pict {
+        width: 540px;
+        height: 500px;
+    }
+
+    .collaborative-content-list {
+        gap: 24px;
+    }
+}
+
+
+
+/* #endregion Collaborative */
