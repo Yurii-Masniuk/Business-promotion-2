@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-join" viewBox="0 0 33 32">
+      <path d="M1.341 2.413h30.48c.247 0 .447.2.447.447v28.693c0 .247-.2.447-.447.447H1.341a.447.447 0 0 1-.447-.447V2.86c0-.247.2-.447.447-.447z"/>
+    </symbol>
+  </defs>
+</svg>
