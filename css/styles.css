@@ -885,7 +885,85 @@ h3 {
 /* #endregion Price Table */
 
 /* #region What Clients Say */
-
-
-
+.client {
+    padding-top: 100px;
+}
+.client-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.client-title-p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;    
+    color: var(--color-fonts);
+    text-align: center;
+    margin: 0 auto 32px auto;
+    width: 320px;
+}
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+.client-list-item {
+    padding: 62px 24px 24px 24px;
+    border-radius: 5px;
+    width: 322px;
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border: 1px solid #dedede;
+}
+.client-list-item-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+}
+.client-list-item-pict {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.client-list-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.client-list-item-text h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.01em;
+    color: var(--background-button-dark);
+}
+.client-list-item-text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.01em;
+    color: var(--color-fonts);
+}
+@media screen and (min-width: 1110px) {
+    .strateg-list {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 64px;
+    }
+    .client-title {        
+        margin-bottom: 10px;
+    }
+    .client-list-item-p {
+        margin-bottom: 40px;
+    }
+}
 /* #endregion What Clients Say */
+
