@@ -80,6 +80,114 @@ h3 {
     }
 }
 
+/* #region Work at the speed of thought */
+
+.thought {
+    padding-top: 28px;
+}
+
+.thought .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.thought .icon-pict {
+    width: 338px;
+    height: 311px;
+}
+
+.thought-content {
+    width: 100%;
+}
+
+.thought-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--color-fonts);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.thought-button-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.thought-button-get_st {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-button-dark);
+    background: var(--background-button-dark);
+    display: block;
+    min-width: 142px;
+    height: 53px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.thought-button-tri {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 138px;
+    height: 23px;
+    border: none;
+    background-color: var(--background-button-light);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--background-button-dark);
+    cursor: pointer;
+}
+
+.thought-button-get_st:hover,
+.thought-button-get_st:focus,
+.thought-button-tri:hover,
+.thought-button-tri:focus {
+    transform: scale(0.95);
+    transition: transform 100ms;
+}
+
+.thought-content-img {
+    align-items: center;
+}
+
+@media screen and (min-width: 1110px) {
+    .thought .container {
+        flex-direction: row;
+        gap: 36px;
+    }
+
+    .thought .icon-pict {
+        width: 610px;
+        height: 555px;
+    }
+
+    .thought-content {
+        width: 411px;
+    }
+
+    .thought-content p {
+        margin-top: 16px;
+        margin-bottom: 48px;
+    }
+}
+
+/* #endregion Work at the speed of thought */
+
 /* #region Product was Built Specifically for You */
 .product {
     padding-top: 100px;
@@ -182,100 +290,9 @@ h3 {
     }
 }
 /* #endregion Product was Built Specifically for You */
-/* #region Work at the speed of thought */
 
-.thought {
-    padding-top: 28px;
-}
-.thought .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-}
-.thought .icon-pict {
-    width: 338px;
-    height: 311px;
-}
-.thought-content {
-    width: 100%;
-}
-.thought-content p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 156%;
-    color: var(--color-fonts);
-    margin-top: 16px;
-    margin-bottom: 32px;
-}
-.thought-button-list {
-    display: flex;
-    align-items: center;
-    gap: 28px;
-}
-.thought-button-get_st {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: var(--color-button-dark);
-    background: var(--background-button-dark);
-    display: block;
-    min-width: 142px;
-    height: 53px;
-    border: none;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-}
-.thought-button-tri {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-width: 138px;
-    height: 23px;
-    border: none;
-    background-color: var(--background-button-light);
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 16px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: var(--background-button-dark);
-    cursor: pointer;
-}
-.thought-button-get_st:hover,
-.thought-button-get_st:focus,
-.thought-button-tri:hover,
-.thought-button-tri:focus {
-    transform: scale(0.95);
-    transition: transform 100ms;
-}
-.thought-content-img {
-    align-items: center;
-}
-@media screen and (min-width: 1110px) {
-    .thought .container {            
-        flex-direction: row;
-        gap: 36px;
-    }
-    .thought .icon-pict {
-        width: 610px;
-        height: 555px;
-    }
-    .thought-content {
-        width: 411px;        
-    }
-    .thought-content p {        
-        margin-top: 16px;
-        margin-bottom: 48px;
-    }
-}
-/* #endregion Work at the speed of thought */
 /* #region Management */
+
 .management {
     padding-top: 100px;
 }
@@ -349,3 +366,98 @@ h3 {
     }
 }
 /* #endregion Management */
+
+/* #region Customer Support */
+.support {
+    padding-top: 100px;
+}
+.support .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.support .icon-pict {
+    width: 350px;
+    height: 320px;
+}
+.support-content {
+    width: 324px;    
+}
+.support-content h3 {
+    font-size: 16px;
+}
+.support-content h2 {
+    margin-top: 8px;
+}
+.support-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.support-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.support-content-list-item {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+.icon-support {
+    fill: #fff;
+}
+.icon-support-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+.support-content-list-item:nth-child(1) .icon-support-color {
+    background-color: #f90;
+}
+.support-content-list-item:nth-child(2) .icon-support-color {
+    background-color: #f03e3d;
+}
+.support-content-list-item:nth-child(3) .icon-support-color {
+    background-color: #4d8dff;
+}
+@media screen and (min-width: 1110px) {
+    .support .container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;        
+    }
+    .support-content {
+        width: 450px;
+    }
+    .support-p {        
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .support .icon-pict {
+        width: 540px;
+        height: 500px;
+    }
+    .support-content-list {        
+        gap: 24px;
+    }
+    .support-p {        
+        margin-top: 24px;
+        margin-bottom: 30px;
+    }
+}
+/* #endregion Customer Support */
+
