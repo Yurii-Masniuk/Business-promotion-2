@@ -972,7 +972,8 @@ h3 {
 .join {
     padding-top: 100px;
 }
-.join .container {    width: 100%;
+.join .container {    
+    width: 371px;
     height: auto;
     border-radius: 32px;
     padding-top: 18px;
@@ -1015,6 +1016,12 @@ h3 {
     width: 351px;
     height: 331px;
 }
-
+.join img {
+    width: 351px;
+    height: 331px;
+}
+@media screen and (min-width: 1110px) {
+    
+}
 
 /* #endregion Join 100 Compannies who boost their business with Product */

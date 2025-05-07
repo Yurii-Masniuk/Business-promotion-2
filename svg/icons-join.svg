@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
     <symbol id="icon-join" viewBox="0 0 33 32">
-      <path d="M1.341 2.413h30.48c.247 0 .447.2.447.447v28.693c0 .247-.2.447-.447.447H1.341a.447.447 0 0 1-.447-.447V2.86c0-.247.2-.447.447-.447z"/>
+      <path
+        d="M1.341 2.413h30.48c.247 0 .447.2.447.447v28.693c0 .247-.2.447-.447.447H1.341a.447.447 0 0 1-.447-.447V2.86c0-.247.2-.447.447-.447z" />
+    </symbol>
+    <symbol id="icon-icon-join-2" viewBox="0 0 39 32">
+      <path
+        d="M3.432.371h31.629c.256 0 .464.208.464.464v29.774a.464.464 0 0 1-.464.464H3.432a.464.464 0 0 1-.464-.464V.835c0-.256.208-.464.464-.464z" />
     </symbol>
   </defs>
 </svg>
