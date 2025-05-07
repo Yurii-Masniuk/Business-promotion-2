@@ -669,8 +669,69 @@ h3 {
 /* #endregion Quick & Easy Process */
 
 /* #region Contents Strategies */
-
-
-
-
+.strateg {
+    padding-top: 100px;
+}
+.strateg .container {
+    padding: 0 20px 0 20px;
+}
+.strateg-title {
+    text-align: center;
+}
+.strateg-title-p {
+    font-family: var(--font-family);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-fonts);
+}
+.strateg-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.strateg-list-item {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    width: 350px;
+    flex-shrink: 0;
+}
+.strateg-list-item-text {
+    padding: 24px;
+}
+.strateg-list-item p {
+    font-family: var(--font-family);
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--color-fonts);
+}
+.strateg-list-item span {
+    font-weight: 700;
+}
+.strateg-list-item h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+.strateg-list-item:nth-child(2) h3 {
+    color: var(--background-button-dark);
+}
+.strateg-list-item img {
+    max-width: 100%;
+}
+@media screen and (min-width: 1110px) {
+    .strateg-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
 /* #endregion Contents Strategies */
