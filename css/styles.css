@@ -1223,7 +1223,7 @@ h3 {
 .footer-icon-list .icon {
     fill: var(--icon-cursor);
 }
-.footer-icon-list .footer-social-link {
+ .footer-social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1233,9 +1233,9 @@ h3 {
     background-color: #edfffc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-list .footer-social-link:hover,
-.footer-list .footer-social-link:focus {
-    background-color: #41ca8c;
+ .footer-social-link:hover,
+ .footer-social-link:focus {
+    background-color: #bde3dc;
 }
 .footer-social-link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
